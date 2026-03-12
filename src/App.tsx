@@ -1,4 +1,5 @@
 import './App.css'
+import ExpenseTracker from './components/ExpenseTracker'
 
 function App() {
   return <Home />
@@ -7,7 +8,7 @@ function App() {
 function Home() {
   return (
     <>
-      <div>Home</div>
+      <ExpenseTracker />
     </>
   )
 }
