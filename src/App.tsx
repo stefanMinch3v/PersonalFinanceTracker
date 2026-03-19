@@ -1,5 +1,6 @@
 import './App.css'
 import ExpenseTracker from './components/ExpenseTracker'
+import ThemeToggle from './components/ThemeToggle'
 
 function App() {
   return <Home />
@@ -8,6 +9,7 @@ function App() {
 function Home() {
   return (
     <>
+      <ThemeToggle />
       <ExpenseTracker />
     </>
   )
